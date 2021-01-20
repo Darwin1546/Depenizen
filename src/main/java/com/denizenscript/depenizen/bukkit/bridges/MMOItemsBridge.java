@@ -3,16 +3,9 @@ package com.denizenscript.depenizen.bukkit.bridges;
 import com.denizenscript.denizen.objects.ItemTag;
 import com.denizenscript.denizencore.tags.TagManager;
 import com.denizenscript.depenizen.bukkit.Bridge;
-import io.lumine.xikage.mythicmobs.MythicMobs;
-import io.lumine.xikage.mythicmobs.items.MythicItem;
 import net.Indyuce.mmoitems.MMOItems;
 import net.Indyuce.mmoitems.api.Type;
-import net.Indyuce.mmoitems.api.item.mmoitem.MMOItem;
-import net.Indyuce.mmoitems.manager.ItemManager;
 import org.bukkit.inventory.ItemStack;
-
-import java.util.Optional;
-
 
 public class MMOItemsBridge extends Bridge {
     @Override
