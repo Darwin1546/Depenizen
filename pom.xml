@@ -12,7 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <craftbukkit.version>1.16.4-R0.1-SNAPSHOT</craftbukkit.version>
+        <craftbukkit.version>1.16.3-R0.1-SNAPSHOT</craftbukkit.version>
         <citizens.version>2.0.27-SNAPSHOT</citizens.version>
         <denizen.version>1.1.9-SNAPSHOT</denizen.version>
         <BUILD_NUMBER>Unknown</BUILD_NUMBER>
@@ -198,6 +198,13 @@
             <version>4.9.1</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/MythicMobs.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.Indyuce</groupId>
+            <artifactId>MMOItems</artifactId>
+            <version>6.5.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/MMOItems.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>fr.neatmonster</groupId>
